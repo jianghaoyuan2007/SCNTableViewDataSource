@@ -1,0 +1,22 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+# ignore all warnings from all pods
+inhibit_all_warnings!
+
+platform :ios, '8.0'
+
+target 'SCNTableViewDataSource_Example' do
+  pod 'SCNTableViewDataSource', :path => '../'
+
+  target 'SCNTableViewDataSource_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end
