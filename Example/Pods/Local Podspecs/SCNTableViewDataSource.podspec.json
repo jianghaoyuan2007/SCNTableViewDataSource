@@ -1,0 +1,22 @@
+{
+  "name": "SCNTableViewDataSource",
+  "version": "0.1.0",
+  "summary": "A short description of SCNTableViewDataSource.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Stephen Chiang/SCNTableViewDataSource",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Stephen Chiang": "jianghaoyuan2007@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Stephen Chiang/SCNTableViewDataSource.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SCNTableViewDataSource/Classes/**/*"
+}

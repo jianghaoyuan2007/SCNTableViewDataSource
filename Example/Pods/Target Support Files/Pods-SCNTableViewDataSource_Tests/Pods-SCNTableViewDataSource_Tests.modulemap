@@ -1,0 +1,6 @@
+module Pods_SCNTableViewDataSource_Tests {
+  umbrella header "Pods-SCNTableViewDataSource_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
